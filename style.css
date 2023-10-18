@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Gabarito', sans-serif;
-    background-color: #a0d7ff;
+    background-color: #526126;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,25 +26,41 @@ body{
         repeat(4,60px)
     ;
     justify-content: center;
-    background-color: hsl(220, 6%, 10%);
-    padding: 1.4rem;
-    border-radius: 12px;
-    gap:0.7rem;
+    background-color: #033B3D;
+    padding: 3rem;
+    border-radius: 50px 0 50px 0 ;
+    gap:1rem;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+    ;
 }
 
 .calculator button{
     border: none;
     font-family: inherit;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    color:hsl(204, 100%, 58%);
-    background-color: hsl(230, 6%, 20%);
+    color:#7B6823;
+    background-color: #0D4A3A;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.291),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.286),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.267),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.242),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.217),
+    100px 100px 80px rgba(0, 0, 0, 0.19)
+    ;
 }
 
 .calculator button:hover{
-    background-color: hsl(230, 6%, 30%);
+    background-color: #2D5731;
 }
 .span-2{
     grid-column: span 2;
@@ -66,3 +82,4 @@ body{
     font-weight: 400;
     color: hsl(0, 0%, 65%);
 }
+
